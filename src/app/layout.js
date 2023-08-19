@@ -11,7 +11,7 @@ function RootLayout({ children }) {
         <Header />
         {children}
         <footer>
-          <img src="/ie-badge.gif" width={100} />
+          <img src="/ie-badge.gif" width={100} alt="IE Badge" />
           <span>Thanks for visiting!</span>
         </footer>
       </body>
