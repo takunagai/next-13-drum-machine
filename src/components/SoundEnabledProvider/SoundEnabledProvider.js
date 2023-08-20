@@ -1,7 +1,7 @@
 'use client';
 import React from 'react';
 
-const soundEnabledContext = React.createContext();
+const soundEnabledContext = React.createContext({});
 
 function SoundEnabledProvider({ children }) {
   const [soundEnabled, setSoundEnabled] =
