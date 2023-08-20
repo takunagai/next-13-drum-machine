@@ -8,7 +8,7 @@ import { useSoundEnabled } from '../SoundEnabledProvider';
 import styles from './Header.module.css';
 
 function Header() {
-  const id = React.useId();
+  // const id = React.useId();
 
   const { soundEnabled, setSoundEnabled }  = useSoundEnabled();
 
